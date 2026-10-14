@@ -5,10 +5,21 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pulsedeck"
 version = "1.0.0"
-description = "A polished terminal dashboard for HTTP service health."
+description = "A neon terminal dashboard for HTTP service health."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
+authors = [{ name = "Ruby-Sploit-King" }]
+keywords = ["cli", "monitoring", "health-check", "http", "terminal", "rich", "typer"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Monitoring",
+]
 dependencies = [
     "rich>=13.9,<15",
     "typer>=0.15,<1",
@@ -21,8 +32,15 @@ dev = [
     "ruff>=0.8",
 ]
 
+[project.urls]
+Homepage = "https://github.com/Ruby-Sploit-King/pulsedeck"
+Repository = "https://github.com/Ruby-Sploit-King/pulsedeck"
+Issues = "https://github.com/Ruby-Sploit-King/pulsedeck/issues"
+Changelog = "https://github.com/Ruby-Sploit-King/pulsedeck/releases"
+
 [project.scripts]
 pulsedeck = "main:app"
+PulseDeck = "main:app"
 
 [tool.setuptools]
 py-modules = ["main"]
