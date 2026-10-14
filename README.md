@@ -7,7 +7,6 @@
 Register services under short names, probe them over HTTP(S), track status and
 latency history in a persistent SQLite registry, and export the deck to JSON.
 
-[![CI](https://github.com/Ruby-Sploit-King/pulsedeck/actions/workflows/ci.yml/badge.svg)](https://github.com/Ruby-Sploit-King/pulsedeck/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-7aa2f7?logo=python&logoColor=white)](https://www.python.org/)
 [![Ruff](https://img.shields.io/badge/code%20style-ruff-000000)](https://github.com/astral-sh/ruff)
 [![License: MIT](https://img.shields.io/badge/license-MIT-9ece6a)](LICENSE)
